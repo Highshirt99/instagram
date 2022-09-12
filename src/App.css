@@ -1,0 +1,29 @@
+nav{
+    font-size: 1em;
+}
+.navIcon{
+    margin-right: 12px;
+    margin-top: 25px;
+  
+}
+input{
+    border: 1px solid grey
+}
+
+@media screen  and (max-width: 500px){
+    nav{
+        font-size: 0.5em;
+        display: flex;
+        justify-content: space-between;
+        margin-left:3px;
+    
+    }
+    div{
+        padding-top:1px;
+        margin-top: -1px;
+    }
+
+  img{
+    width: 50px;
+  }
+}

@@ -1,0 +1,45 @@
+.gallery{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 8px;
+}
+
+.btn-sm{
+    position: relative;
+    top:-150px;
+    left: 30%;
+    width: fit-content;
+    font-size: 5px;
+}
+
+@media screen and (max-width: 900px) {
+    .gallery{
+        grid-template-columns: auto auto auto;
+    }
+    .image{
+        width: 200px;
+        height: 200px;
+    }
+
+    .btn-sm{
+        position: relative;
+        top: -120px;
+        left: 57px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .gallery{
+        grid-template-columns: auto auto;
+    }
+    .image{
+        width: 150px;
+        height: 150px;
+    }
+
+    .btn-sm{
+        position: relative;
+        top: -100px;
+        left: 30px;
+    }
+}
